@@ -18,7 +18,7 @@ const NavKeys = () => {
     }
     return(
         <>
-            <div>
+            <div className="Navbar">
                 <p>H: home</p>
                 <p>A: About</p>
                 <p>C: Contact</p>

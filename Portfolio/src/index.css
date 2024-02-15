@@ -1,5 +1,20 @@
-body {
-  margin: 20px;
-  border: 1px solid black;
+html, body {
   height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  position: absolute;
+  top: 2vh;
+  left: 2vh;
+  right: 2vh;
+  bottom: 2vh;
+  border: solid black 1px;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
 }
